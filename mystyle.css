@@ -1,0 +1,131 @@
+
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+#app-container {
+  width: 375px;
+  height: 667px;
+  margin: auto;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.app-box {
+  text-align: center;
+  
+}
+
+.double-row {
+  
+  flex-grow: 2;
+}
+
+.single-row {
+  height: 8.33%; 
+  flex-grow: 1;
+}
+
+#icon-box > img {
+  width: 125px;
+  height: 125px;
+  border: solid 0.5px gray;
+  border-radius: 25px;
+}
+
+#title-box > h1 {
+  font-weight: 70;
+}
+
+#app-inputs-top, #app-inputs-bottom  {
+	border: solid 0.75px gray; 
+	width: 80%; 
+	margin: auto; 
+  padding: 9px; 
+  
+}
+
+#app-inputs-top {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#app-inputs-bottom {
+	border-top: 0;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+label {
+  
+  width: 25%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  font-weight: 70;
+  \: 0;
+  /*   font-size: 0.6em;  */
+}
+
+input[type="text"],
+input[type="password"] {
+  
+  caret-color: #2D8726;
+  padding-left: 0;
+  font-color: lightgray;
+  
+  /* 		padding: 7px;  */
+}
+
+button {
+  background-color: #ffffff;
+    color: #4c4c4c;
+    border: none;
+    cursor: pointer; 
+    font-size: 25px;
+  
+}
+
+
+.activeButton {
+  color: #2D8726;
+}
+
+a {
+  color: #2D8726;
+  text-decoration: none;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: red; /* Red */
+    color: white;
+    margin-bottom: 15px;
+   
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 45px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.closebtn:hover {
+    color: black;
+}
+
+
+
+
+
